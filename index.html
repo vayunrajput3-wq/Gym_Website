@@ -1,0 +1,736 @@
+<!DOCTYPE html><html class="dark" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>
+ᶠⁱᵗⁿᵉˢˢ ᶠᵘˡᵗᵘʳᵉ ᵍʸᵐ| EVOLVE BEYOND LIMITS</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="script.java">
+<link rel="shortcut icon" href="data:image/jpeg;base64,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" type="image/x-icon">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+        body {
+            background-color: #050505;
+            color: #e5e2e1;
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+        }
+
+        .neon-glow-primary {
+            box-shadow: 0 0 20px rgba(237, 177, 255, 0.4);
+        }
+
+        .neon-glow-hover:hover {
+            box-shadow: 0 0 30px rgba(237, 177, 255, 0.6);
+        }
+
+       .text-gradient-purple {
+    background: linear-gradient(135deg, #edb1ff 0%, #9d50bb 100%);
+    
+    /* Standard property */
+    background-clip: text;
+    
+    /* For Chrome, Safari */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* Fallback for unsupported browsers */
+    color: transparent;
+}
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        .bg-mesh {
+            background-image: radial-gradient(at 0% 0%, rgba(157, 80, 187, 0.15) 0px, transparent 50%),
+                              radial-gradient(at 100% 100%, rgba(237, 177, 255, 0.1) 0px, transparent 50%);
+        }
+        
+        @keyframes pulse-slow {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 0.6; }
+        }
+        .animate-pulse-slow {
+            animation: pulse-slow 8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+    </style>
+
+    
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "secondary-fixed": "#ecdcff",
+                      "tertiary": "#d0cb59",
+                      "surface-variant": "#353534",
+                      "inverse-primary": "#883ca6",
+                      "on-surface": "#e5e2e1",
+                      "on-primary-container": "#fff3fd",
+                      "inverse-surface": "#e5e2e1",
+                      "on-secondary-container": "#c7a5ff",
+                      "on-secondary-fixed-variant": "#573092",
+                      "on-tertiary": "#343200",
+                      "on-surface-variant": "#d1c2d2",
+                      "background": "#131313",
+                      "outline": "#9a8c9b",
+                      "on-primary": "#520070",
+                      "surface-container": "#201f1f",
+                      "outline-variant": "#4e4350",
+                      "primary": "#edb1ff",
+                      "error-container": "#93000a",
+                      "error": "#ffb4ab",
+                      "surface-container-low": "#1c1b1b",
+                      "on-background": "#e5e2e1",
+                      "tertiary-fixed": "#ede772",
+                      "on-secondary": "#40147a",
+                      "secondary": "#d6baff",
+                      "primary-container": "#9d50bb",
+                      "on-error-container": "#ffdad6",
+                      "inverse-on-surface": "#313030",
+                      "on-error": "#690005",
+                      "tertiary-fixed-dim": "#d0cb59",
+                      "tertiary-container": "#b4af41",
+                      "on-primary-fixed-variant": "#6e208c",
+                      "on-primary-fixed": "#320046",
+                      "on-tertiary-container": "#444100",
+                      "primary-fixed-dim": "#edb1ff",
+                      "secondary-container": "#573092",
+                      "surface-dim": "#131313",
+                      "primary-fixed": "#f9d8ff",
+                      "on-tertiary-fixed": "#1e1c00",
+                      "surface-container-highest": "#353534",
+                      "surface-tint": "#edb1ff",
+                      "secondary-fixed-dim": "#d6baff",
+                      "surface-container-high": "#2a2a2a",
+                      "on-secondary-fixed": "#270057",
+                      "surface": "#131313",
+                      "surface-container-lowest": "#0e0e0e",
+                      "surface-bright": "#3a3939",
+                      "on-tertiary-fixed-variant": "#4b4900"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "margin-mobile": "20px",
+                      "stack-lg": "64px",
+                      "container-max": "1280px",
+                      "unit": "8px",
+                      "gutter": "24px",
+                      "stack-sm": "16px",
+                      "stack-md": "32px"
+              },
+              "fontFamily": {
+                      "body-md": ["Inter"],
+                      "label-caps": ["Inter"],
+                      "display-lg-mobile": ["Inter"],
+                      "body-lg": ["Inter"],
+                      "headline-md": ["Inter"],
+                      "display-lg": ["Inter"]
+              },
+              "fontSize": {
+                      "body-md": ["16px", {"lineHeight": "1.6", "letterSpacing": "0em", "fontWeight": "400"}],
+                      "label-caps": ["12px", {"lineHeight": "1", "letterSpacing": "0.1em", "fontWeight": "600"}],
+                      "display-lg-mobile": ["36px", {"lineHeight": "1.1", "letterSpacing": "-0.04em", "fontWeight": "800"}],
+                      "body-lg": ["18px", {"lineHeight": "1.6", "letterSpacing": "0em", "fontWeight": "400"}],
+                      "headline-md": ["24px", {"lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                      "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.04em", "fontWeight": "800"}]
+              }
+            },
+          },
+        }
+    </script>
+
+
+
+</head>
+<body class="bg-surface-container-lowest antialiased">
+<!-- TopAppBar -->
+<header class="bg-surface/10 backdrop-blur-xl flex justify-between items-center w-full px-margin-mobile py-4 sticky top-0 z-50 border-b border-white/10">
+<div class="font-display-lg-mobile text-display-lg-mobile font-black tracking-tighter text-primary drop-shadow-[text-shadow: 0 0 15px rgba(255, 255, 255, 0.7);]"> 𝔣𝔦𝔱𝔫𝔢𝔰𝔰 𝔨𝔲𝔩𝔱𝔲𝔯𝔢 𝔤𝔶𝔪 
+
+̶̺</div>
+<!-- Desktop Nav -->
+<nav class="hidden md:flex gap-8 items-center">
+<a class="font-label-caps text-label-caps text-primary hover:text-primary transition-colors duration-300" href="#Home">Home</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-300" href="#experience">Experience</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-300" href="#coaching">Coaching</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-300" href="#membership">Membership</a>
+</nav>
+<div class="flex items-center gap-4 text-primary">
+<span class="material-symbols-outlined cursor-pointer hover:scale-110 duration-200 transition-transform">notifications</span>
+
+
+
+
+
+
+</div>
+</header>
+<main class="bg-mesh min-h-screen">
+<!-- Hero Section -->
+<section class="relative h-[90vh] flex items-center justify-center overflow-hidden">
+
+
+
+<div class="absolute inset-0 z-0">
+  
+  <!-- Background Image -->
+  <img 
+    src="https://i.ibb.co/d0P9bZ0v/Whats-App-Image-2026-05-31-at-3-07-50-PM.jpg"
+    alt="Elite Fitness Environment"
+    class="w-full h-full object-cover opacity-60"
+  />
+
+  <!-- Overlay Gradient -->
+  <div class="absolute inset-0 bg-gradient-to-b from-transparent via-black/50 to-black"></div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="relative z-10 text-center px-margin-mobile flex flex-col items-center">
+<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg mb-6 max-w-4xl tracking-tighter leading-none">TRANSFORM YOUR <span class="text-gradient-purple">BODY</span> TODAY</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant/80 mb-10 max-w-2xl">
+                    A next-gen performance environment for champions.
+Designed to elevate every level of your strength.
+                </p>
+<button class="glass-card px-10 py-5 rounded-full font-label-caps text-label-caps text-primary border-primary/40 hover:bg-primary hover:text-on-primary neon-glow-primary neon-glow-hover transition-all duration-500 transform hover:scale-105">
+                    JOIN NOW
+                </button>
+</div>
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce opacity-40">
+<span class="material-symbols-outlined text-4xl">expand_more</span>
+</div>
+
+
+</section>
+<!-- Experience Section (Bento Grid) -->
+<section class="px-margin-mobile py-stack-lg max-w-container-max mx-auto" id="experience">
+<div class="mb-12">
+<h2 class="font-label-caps text-label-caps text-primary mb-2">PRECISION PERFORMANCE</h2>
+<h3 class="font-headline-md text-headline-md">THE EXPERIENCE</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Card 1 -->
+<div class="glass-card p-stack-sm md:p-stack-md rounded-xl flex flex-col gap-4 group hover:border-primary/50 transition-all duration-300">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-4 group-hover:scale-110 duration-300">
+<span class="material-symbols-outlined text-3xl">bolt</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-white">Biometric Pulse</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Real-time physiological tracking integrated into every station, syncing directly to your performance profile.</p>
+</div>
+<!-- Card 2 (Large highlight) -->
+<div class="glass-card md:col-span-1 p-stack-sm md:p-stack-md rounded-xl flex flex-col gap-4 group hover:border-primary/50 transition-all duration-300">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-4 group-hover:scale-110 duration-300">
+<span class="material-symbols-outlined text-3xl">model_training</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-white">Advanced Kinematics</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Smart weight systems that adapt resistance curves based on your explosive power output and fatigue levels.</p>
+</div>
+<!-- Card 3 -->
+<div class="glass-card p-stack-sm md:p-stack-md rounded-xl flex flex-col gap-4 group hover:border-primary/50 transition-all duration-300" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg); background: rgba(255, 255, 255, 0.05);">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-4 group-hover:scale-110 duration-300">
+<span class="material-symbols-outlined text-3xl">ac_unit</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-white">Cryo-Recovery</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Post-session elite recovery suite featuring localized cryotherapy and infrared metabolic reset chambers.</p>
+</div>
+</div>
+
+</section>
+<!-- Elite Coaching Section (Luxury Highlight) -->
+<section class="py-stack-lg relative overflow-hidden" id="coaching">
+<div class="absolute right-0 top-1/2 -translate-y-1/2 w-1/2 h-full opacity-10 bg-primary blur-[120px] rounded-full animate-pulse-slow"></div>
+<div class="max-w-container-max mx-auto px-margin-mobile flex flex-col md:flex-row items-center gap-12">
+<div class="w-full md:w-1/2 relative">
+<div class="absolute inset-0 border-2 border-primary/20 translate-x-4 translate-y-4 rounded-xl -z-10">
+
+
+
+
+
+  
+</div>
+
+<div> 
+ <img
+  src="https://i.ibb.co/hR8H88xD/Screenshot-2026-05-31-145540.png"
+  alt="Elite head coach in a professional gym"
+  class="rounded-xl w-full h-[500px] object-cover">
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+<div class="w-full md:w-1/2">
+<h2 class="font-label-caps text-label-caps text-primary mb-4">WORLD-CLASS EXPERTISE</h2>
+<h3 class="font-display-lg text-display-lg-mobile md:text-headline-md mb-6">GUIDED BY THE ELITE</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-8">
+                        Our coaches are not just trainers; they are performance architects. With backgrounds in Olympic weightlifting and sports science, they engineer personalized regimens that push the boundaries of human potential.
+                    </p>
+<ul class="space-y-4 mb-10">
+<li class="flex items-center gap-3 text-on-surface">
+<span class="material-symbols-outlined text-primary" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">check_circle</span>
+<span class="font-body-md text-body-md">Customized Biometric-Driven Programming</span>
+</li>
+<li class="flex items-center gap-3 text-on-surface">
+<span class="material-symbols-outlined text-primary" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">check_circle</span>
+<span class="font-body-md text-body-md">Elite Nutrition &amp; Metabolic Tracking</span>
+</li>
+<li class="flex items-center gap-3 text-on-surface">
+<span class="material-symbols-outlined text-primary" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">check_circle</span>
+<span class="font-body-md text-body-md">1-on-1 Performance Reviews</span>
+</li>
+</ul>
+<button class="bg-primary text-on-primary px-8 py-4 rounded-lg font-label-caps text-label-caps font-bold neon-glow-primary neon-glow-hover transition-all">
+                        BOOK A CONSULTATION
+                    </button>
+</div>
+</div>
+
+
+
+
+
+</section>
+<!-- Membership Pricing -->
+<section      class="px-margin-mobile py-stack-lg max-w-container-max mx-auto text-center" id="membership">
+
+
+
+
+  
+<h2 class="font-label-caps text-label-caps text-primary mb-4">ACCESS LEVELS</h2>
+<h3 class="font-display-lg text-display-lg-mobile md:text-display-lg mb-16">CHOOSE YOUR PERFORMANCE</h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter items-end">
+<!-- Tier 1 -->
+<div class="glass-card p-stack-md rounded-xl text-left border-white/5">
+<h4 class="font-label-caps text-label-caps text-on-surface-variant mb-4">ESSENTIAL</h4>
+<div class="flex items-baseline gap-1 mb-6">
+<span class="text-4xl font-bold">500</span>
+<span class="text-on-surface-variant/60 font-body-md">/month</span>
+</div>
+<ul class="space-y-4 mb-8 text-on-surface-variant font-body-md">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-xs">circle</span> 24/7 Access</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-xs">circle</span> Core Performance Tech</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-xs">circle</span> Personalized Workout Support</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-xs">circle</span> Standard Equipment Access</li>
+</ul>
+<button class="w-full py-4 border border-white/20 rounded-lg font-label-caps text-label-caps hover:bg-white/5 transition-all">SELECT PLAN</button>
+</div>
+<!-- Tier 2 - Featured -->
+<div class="glass-card p-stack-md rounded-xl text-left border-primary/50 relative transform md:scale-105 z-10 neon-glow-primary">
+<div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-on-primary px-4 py-1 rounded-full font-label-caps text-[10px]">MOST POPULAR</div>
+<h4 class="font-label-caps text-label-caps text-primary mb-4">ELITE PULSE</h4>
+<div class="flex items-baseline gap-1 mb-6">
+<span class="text-5xl font-bold">1000</span>
+<span class="text-on-surface-variant/60 font-body-md">/month</span>
+</div>
+<ul class="space-y-4 mb-8 text-on-surface font-body-md">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-xs" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">circle</span> Full Facility Access All Zones</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-xs" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">circle</span> Personalized Performance Insights</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-xs" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">circle</span> 4 Elite Coaching Credits</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-xs" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">circle</span> Recovery Suite Access</li>
+</ul>
+<button class="w-full py-4 bg-primary text-on-primary rounded-lg font-label-caps text-label-caps font-bold neon-glow-hover transition-all">SELECT PLAN</button>
+</div>
+<!-- Tier 3 -->
+<div class="glass-card p-stack-md rounded-xl text-left border-white/5">
+<h4 class="font-label-caps text-label-caps text-on-surface-variant mb-4">AETHER PRO</h4>
+<div class="flex items-baseline gap-1 mb-6">
+<span class="text-4xl font-bold">1500</span>
+<span class="text-on-surface-variant/60 font-body-md">/month</span>
+</div>
+<ul class="space-y-4 mb-8 text-on-surface-variant font-body-md">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-xs">circle</span> Unlimited Coaching</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-xs">circle</span> All recovery services</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-xs">circle</span> Nutrition concierge</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-xs">circle</span> Priority booking</li>
+</ul>
+<button class="w-full py-4 border border-white/20 rounded-lg font-label-caps text-label-caps hover:bg-white/5 transition-all">SELECT PLAN</button>
+</div>
+</div>
+
+
+
+
+<br>
+<br>
+
+
+
+
+
+  <style>
+    .container {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 16px;
+      font-family: Arial, sans-serif;
+    }
+    .left-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      min-width: 150px;
+    }
+    .whatsapp-btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #25D366;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .whatsapp-btn:hover {
+      background: #1ebe5d;
+    }
+    .map-box {
+      flex: 1;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #ddd;
+    }
+    .info-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: #333;
+    }
+    .info-sub {
+      font-size: 12px;
+      color: #888;
+    }
+  </style>
+  
+
+
+
+
+
+<br>
+<br>
+<br>
+
+
+
+
+<div class="container"> </div>
+
+  <!-- WhatsApp Button (Left) -->
+  <div class="left-panel">
+    <a class="whatsapp-btn center" href="https://wa.me/7838614127" target="_blank">
+      <!-- WhatsApp Icon -->
+      Chat on WhatsApp
+    </a>
+    <div class="info-name">Maharashtra Fitness Club</div>
+    <div class="info-sub">⭐ 4.6 · Grant Road, Mumbai</div>
+  </div> 
+  </section>
+</main>
+
+
+
+
+
+<div style="max-width: 100%; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.15);">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241482.25702587218!2d72.51493149453127!3d18.96852819999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf13ef28e809%3A0x4f1b8debf9f62e61!2sPlus%20Fitness%20Mumbai%20Central!5e0!3m2!1sen!2sus!4v1779909591381!5m2!1sen!2sus"
+    width="100%"
+    height="320"
+    style="border:0;"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="w-full px-margin-mobile py-stack-md flex flex-col md:flex-row justify-between items-center gap-4 border-t border-white/5 bg-surface-container-lowest">
+<div class="font-headline-md text-headline-md text-primary">🇫🇮🇹🇳🇪🇸🇸 🇰🇺🇱🇹🇺🇷🇪 🇬🇾🇲 
+</div>
+<div class="flex gap-8">
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-all" href="#">Privacy</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-all" href="#">Terms</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-all" href="#">Membership</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-all" href="#">Contact</a>
+</div>
+
+
+
+
+
+</footer>
+<!-- Mobile Bottom Nav (Shared Component Logic) -->
+<div class="md:hidden fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 py-3 pb-6 bg-surface/5 backdrop-blur-2xl border-t border-white/10 shadow-[0_-10px_30px_rgba(0,0,0,0.5)] rounded-t-xl">
+<div class="flex flex-col items-center justify-center text-primary drop-shadow-[0_0_10px_rgba(237,177,255,0.8)] scale-110">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="font-label-caps text-[10px] mt-1">Home</span>
+</div>
+<div class="flex flex-col items-center justify-center text-on-surface-variant/60">
+<span class="material-symbols-outlined">calendar_month</span>
+<span class="font-label-caps text-[10px] mt-1">Schedule</span>
+</div>
+<div class="flex flex-col items-center justify-center text-on-surface-variant/60">
+<span class="material-symbols-outlined">fitness_center</span>
+<span class="font-label-caps text-[10px] mt-1">Classes</span>
+</div>
+<div class="flex flex-col items-center justify-center text-on-surface-variant/60">
+<span class="material-symbols-outlined">insights</span>
+<span class="font-label-caps text-[10px] mt-1">Progress</span>
+</div>
+</div>
+
+
+ <footer class="footer">
+  <div class="footer-container">
+
+    <!-- Logo & About -->
+    <div class="footer-box">
+      <h2 class="logo">FIT<span>POWER</span></h2>
+      <p>
+        Stronger Everyday. We help you build a stronger body, a stronger mind,
+        and a stronger you.
+      </p>
+
+      <div class="socials">
+        <a href="#">FB</a>
+        <a href="#">IG</a>
+        <a href="#">YT</a>
+        <a href="#">WA</a>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-box">
+      <h3>Quick Links</h3>
+      <ul>
+        <li>Programs</li>
+        <li>Trainers</li>
+        <li>Membership Plans</li>
+        <li>Services</li>
+        <li>Trainers</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+
+    <!-- Services -->
+    <div class="footer-box">
+      <h3>Our Services</h3>
+      <ul>
+        <li>Personal Training</li>
+        <li>Strength Training</li>
+        <li>Weight Loss</li>
+        <li>Cardio</li>
+        <li>Diet Plan</li>
+        <li>Body Building</li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer-box">
+      <h3>Contact Us</h3>
+      <p>📞 +91 7838614127</p>
+      <p>📧 vayu@fitpowergym.com</p>
+      <p>📍 New Delhi, India</p>
+    </div>
+
+    <!-- Hours -->
+    <div class="footer-box">
+      <h3>Working Hours</h3>
+      <p>Mon - Fri: 5:00 AM - 11:00 PM</p>
+      <p>Saturday: 6:00 AM - 10:00 PM</p>
+      <p>Sunday: 7:00 AM - 1:00 PM</p>
+    </div>
+
+  </div>
+
+  <!-- Bottom -->
+  <div class="footer-bottom">
+    <p>©  @ FITNESS KULTURE GYM PERFORMANCE.ALL RIGHTS RESERVED. .</p>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+<script>
+        // Smooth scrolling for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Interactive Glass Card Parallax Effect
+        const cards = document.querySelectorAll('.glass-card');
+        cards.forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                
+                const xPercent = (x / rect.width - 0.5) * 10;
+                const yPercent = (y / rect.height - 0.5) * -10;
+                
+                card.style.transform = `perspective(1000px) rotateX(${yPercent}deg) rotateY(${xPercent}deg)`;
+                card.style.background = `radial-gradient(circle at ${x}px ${y}px, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05))`;
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = `perspective(1000px) rotateX(0deg) rotateY(0deg)`;
+                card.style.background = `rgba(255, 255, 255, 0.05)`;
+            });
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('py-2', 'bg-surface/30');
+                header.classList.remove('py-4', 'bg-surface/10');
+            } else {
+                header.classList.add('py-4', 'bg-surface/10');
+                header.classList.remove('py-2', 'bg-surface/30');
+            }
+        });
+
+        
+
+        // ===== GSAP INIT =====
+gsap.registerPlugin(ScrollTrigger);
+
+// ===== HERO ANIMATION (APPLE STYLE) =====
+gsap.from("h1", {
+    opacity: 0,
+    y: 60,
+    duration: 1,
+    ease: "power3.out"
+});
+
+gsap.from("p", {
+    opacity: 0,
+    y: 40,
+    duration: 1,
+    delay: 0.2,
+    ease: "power3.out"
+});
+
+gsap.from("button", {
+    opacity: 0,
+    scale: 0.8,
+    duration: 1,
+    delay: 0.4,
+    ease: "back.out(1.7)"
+});
+
+// ===== SECTION REVEAL (TESLA STYLE SCROLL) =====
+gsap.utils.toArray("section").forEach((section) => {
+    gsap.from(section.children, {
+        scrollTrigger: {
+            trigger: section,
+            start: "top 80%",
+            toggleActions: "play none none reverse"
+        },
+        opacity: 0,
+        y: 80,
+        duration: 1,
+        ease: "power3.out",
+        stagger: 0.15
+    });
+});
+
+// ===== CARD FLOAT EFFECT =====
+gsap.utils.toArray(".glass-card").forEach((card) => {
+    gsap.from(card, {
+        scrollTrigger: {
+            trigger: card,
+            start: "top 85%"
+        },
+        opacity: 0,
+        y: 60,
+        scale: 0.95,
+        duration: 0.8,
+        ease: "power3.out"
+    });
+});
+    </script>
+
+
+
+    <section class="hero">
+    <div class="content">
+        <h1>Professional Website</h1>
+        <p>Fully Responsive Design</p>
+        <button>Get Started</button>
+    </div>
+</section>
+    
+
+
+
+
+</body></html>
